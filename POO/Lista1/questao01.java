@@ -1,3 +1,5 @@
+//Escreva um programa em Java que leia três valores não numéricos para representar a “rua”, “bairro” e “cidade”. No final é exibido o endereço completo do usuário.
+
 import java.util.Scanner;
 
 class questao01 {
