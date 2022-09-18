@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-class questao02 {
+class Questao02 {
   public static void main(String[] args) {
     Scanner entrada = new Scanner(System.in);
     System.out.print("Digite a primeira nota: ");

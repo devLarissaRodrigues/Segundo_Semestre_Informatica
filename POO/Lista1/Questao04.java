@@ -1,7 +1,7 @@
 //Escreva um programa em Java que leia o valor da base e da altura de um triângulo e em seguida imprima na tela o valor de sua área. Lembrando que a fórmula da área é: A = (B x H)/2
 import java.util.Scanner;
 
-class questao04{
+class Questao04{
   public static void main(String[] args){
 
     //entrada
