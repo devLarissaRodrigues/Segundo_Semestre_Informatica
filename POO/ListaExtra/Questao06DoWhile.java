@@ -2,7 +2,7 @@
 //Sempre fazer uma classe com letra inicial maiúscula
 import java.util.*;
 
-public class questao06DoWhile{
+public class Questao06DoWhile{
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     System.out.print("Digite seu login: ");

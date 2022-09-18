@@ -2,20 +2,20 @@
 
 import java.util.*;
 
-class questao01 {
+class Questao01 {
   public static void main(String[] args){
 
   Scanner entrada = new Scanner(System.in);
-    System.out.print("Digite sua base: ");
+    System.out.print("Digite o valor da base do retângulo: ");
     double base = entrada.nextDouble();
-    System.out.print("Digite sua altura: ");
+    System.out.print("Digite o valor da altura: ");
     double altura = entrada.nextDouble();
     double area;
     double perimetro;
     area = base * altura;
     perimetro = 2*altura + 2*base;
-    System.out.println("O valor do perímetro é: "+perimetro);
-    System.out.print("O valor da área é: "+area);
+    System.out.printf("O valor do perímetro do retângulo é: %.2f\n", perimetro);
+    System.out.printf("O valor da área é %.2f: ", area);
     
   }
 }

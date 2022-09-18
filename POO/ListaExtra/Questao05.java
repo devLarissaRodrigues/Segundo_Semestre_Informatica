@@ -3,7 +3,7 @@
 import java.lang.Math;
 import java.util.Scanner;
 
-class questao05{
+class Questao05{
   public static void main(String[] args){
 
     Scanner entrada = new Scanner(System.in);
