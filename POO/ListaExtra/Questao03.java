@@ -8,14 +8,14 @@ class Questao03 {
   System.out.print("Digite sua primeira nota: ");  
   double num1= entrada.nextDouble();
   System.out.print("Digite sua segunda nota: ");  
-    double num2= entrada.nextDouble();
+  double num2= entrada.nextDouble();
   System.out.print("Digite sua terceira nota: ");  
-    double num3= entrada.nextDouble();
+  double num3= entrada.nextDouble();
   System.out.print("Digite sua quarta nota: ");  
-    double num4= entrada.nextDouble(); 
+  double num4= entrada.nextDouble(); 
     
-    double media = (num1 + num2 + num3 + num4)/4;
-    System.out.printf("Média: %.2f", media);
+  double media = (num1 + num2 + num3 + num4)/4;
+  System.out.printf("Média: %.2f", media);
     
   }
   
