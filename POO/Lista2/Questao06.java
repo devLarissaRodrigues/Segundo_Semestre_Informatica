@@ -7,11 +7,10 @@ public class Questao06{
     Scanner sc = new Scanner(System.in);
     System.out.print("Digite seu login: ");
     String login = sc.nextLine();
-    String senha = "teste";
-
+  
     while(true){
       System.out.print("Digite sua senha: ");
-      senha = sc.nextLine();
+      String senha = sc.nextLine();
       if (senha.equals("12345")){
         System.out.print("Parabéns, " + login + "! Senha correta.");
         break;

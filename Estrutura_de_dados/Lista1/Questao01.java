@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class questao01{
+class Questao01{
   public static void main(String[] args){
     Scanner entrada = new Scanner(System.in);
     System.out.println("Digite o número referente ao seu destino: (Norte – 1, Nordeste – 2, Centro-Oeste – 3 e Sul – 4)");
