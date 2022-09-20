@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class questao01{
+public class Questao01{
   public static void main(String[] args){
     Scanner entrada = new Scanner(System.in);
     System.out.print("Digite sua idade: ");

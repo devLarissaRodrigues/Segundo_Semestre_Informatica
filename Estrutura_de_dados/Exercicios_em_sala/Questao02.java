@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class questao02{
+public class Questao02{
   public static void main(String[] args){
     Scanner entrada = new Scanner(System.in);
 
