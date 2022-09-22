@@ -1,4 +1,5 @@
 //Uma instância de uma classe é um objeto
+//Instância: valores que são atribuídos para a entidade
 //Sempre fazer uma classe com letra inicial maiúscula
 import java.util.*;
 
