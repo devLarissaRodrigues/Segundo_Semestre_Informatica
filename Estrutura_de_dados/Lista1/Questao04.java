@@ -13,8 +13,12 @@ public class Questao04{
     int num2 = sc.nextInt();
     System.out.print("Digite mais um número: ");
     int num3 = sc.nextInt();
+    int maior, menor, meio;
 
-    if (num1 > num2 && num1 > num3){
+    if (num1 > num2 && num1 >= num3){
+      maior = num1; 
+    }
+    else if(num2 < num1 && num2 <= num3){
       
     }
 

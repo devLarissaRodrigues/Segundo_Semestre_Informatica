@@ -13,6 +13,5 @@ public class Questao04{
     int num2 = sc.nextInt();
     System.out.print("Digite mais um número: ");
     int num3 = sc.nextInt();
-  
     }
 }

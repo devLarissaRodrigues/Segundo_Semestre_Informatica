@@ -1,3 +1,5 @@
+//Escreva um programa em Java que leia um número inteiro do usuário e imprima na tela o valor do seu fatorial.
+
 import java.util.Scanner;
 
 public class Questao01{

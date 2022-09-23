@@ -1,3 +1,5 @@
+//. Criar um programa que leia o destino do passageiro (Norte – 1, Nordeste – 2, Centro-Oeste – 3 e Sul –4), se a viagem inclui retorno (ida e volta) e informar o preço da passagem c
+
 import java.util.Scanner;
 
 class Questao01{
