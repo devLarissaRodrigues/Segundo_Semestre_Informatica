@@ -7,7 +7,6 @@ public class Questao04{
     double media;
     int menor = 0;
 
-
     for (int i = 1; i < 10; i++){
       System.out.print("Digite um número: ");
       int num = sc.nextInt();
@@ -15,16 +14,11 @@ public class Questao04{
 
       if (num < menor || i == 1){
         menor = num;
-        
-
       }
     }
-
     media = (double) soma/10;
 
     System.out.println("A média dos números digitados é " + media);
     System.out.print("O menor número digitado foi " + menor);
-
-    
   }
 }
