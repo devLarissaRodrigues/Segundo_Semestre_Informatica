@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Questao05{
+public class Questao06{
   public static void main(String[] args){
     Random objeto = new Random();
     int[] vetor = new int[10];
