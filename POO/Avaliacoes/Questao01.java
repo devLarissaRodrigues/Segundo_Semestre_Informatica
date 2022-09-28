@@ -24,12 +24,12 @@ public class Questao01{
       senha = sc.nextLine();
       if (senha.equals("1234")){
         System.out.printf("Seja bem vindo(a), %s, a empresa FACEBOOK. Será um prazer trabalhar com um(a) %s com sua experiência.", nome, profissao);
-      if (senha.equals("1234") && sexo.toUpperCase().startsWith("M")){
+      if (sexo.toUpperCase().startsWith("M")){
         idadeAposentadoria = 65;
         anoAposentadoria = 2022 + (idadeAposentadoria - idade);
         System.out.printf("\nVocê irá se aposentar em %s\n", anoAposentadoria);
       }
-        if (senha.equals("1234") && sexo.toUpperCase().startsWith("F")){
+        if (sexo.toUpperCase().startsWith("F")){
         idadeAposentadoria = 60;
         anoAposentadoria = 2022 + (idadeAposentadoria - idade);
         System.out.printf("\nVocê irá se aposentar em %s\n", anoAposentadoria);
