@@ -14,14 +14,14 @@ public class Questao04{
       int numero = sc.nextInt();
       lista[i] = numero;
 
-      if 
-
-
-
-
-      
+      if(i == 0 || maior < numero){
+        maior = numero;
+      }
+      if(i == 0 || menor > numero){
+        menor = numero;
+      }
     }
-
+    System.out.println("O maior número digitado foi " + maior);
+    System.out.print("O menor número digitado foi " + menor);
   }
 }
-
