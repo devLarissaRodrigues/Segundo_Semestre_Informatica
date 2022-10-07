@@ -20,15 +20,16 @@ public class Questao01{
         
         System.out.print("Digite seu sexo: ");
         sexo = sc.nextLine();
+
+        System.out.print("Digite sua idade: ");
+        idade = sc.nextInt();
+        sc.nextLine();
         
         System.out.print("Digite sua profissão: ");
         profissao = sc.nextLine();
         
         System.out.print("Digite suas habilidades: ");
         habilidades = sc.nextLine(); 
-
-        System.out.print("Digite sua idade: ");
-        idade = sc.nextInt();
         
         System.out.printf("Seja bem vindo(a), %s, a empresa FACEBOOK. Será um prazer trabalhar com um %s com sua experiência.\n", nome, profissao);
 
